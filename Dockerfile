@@ -9,7 +9,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 
-ADD create_memcached_admin_user.sh /create_memcached_admin_user.sh
+# ADD create_memcached_admin_user.sh /create_memcached_admin_user.sh
 # ADD run.sh /run.sh
 # RUN chmod 755 /*.sh
 
